@@ -1,0 +1,74 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("../images/bg_bggenerator_com.png") no-repeat,
+    linear-gradient(
+      135deg,
+      rgba(158, 83, 152, 1) 0%,
+      rgba(170, 142, 168, 1) 35%,
+      rgba(170, 142, 168, 1) 100%
+    );
+  background-size: cover, cover;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#title{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 20;
+  font-family: 'Bebas Neue', cursive;
+}
+
+form {
+  background-color: rgb(218, 206, 215);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 0 7px 0 ;
+}
+
+.form__group > label {
+  font-size: 20px;
+}
+
+.form__group > input {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.form__group > button {
+  font-size: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.form__group > button:hover {
+  background-color: rgba(170, 142, 168, 0.5);
+}
