@@ -31,7 +31,7 @@ else
 {
 	echo '<script>
 					alert("Are you a genuine visitor?");
-					window.location = "Registration.php";
+					window.location = "../Registration.php";
 				</script>';
 	
 }
