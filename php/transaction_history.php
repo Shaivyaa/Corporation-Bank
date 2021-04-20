@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/transaction_history.css" type="text/css" />
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/36bc9cca65.js" crossorigin="anonymous"></script>
 </head>

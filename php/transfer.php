@@ -12,6 +12,7 @@
   <script src="https://kit.fontawesome.com/36bc9cca65.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/footer.css">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
 </head>
 
 <body>
